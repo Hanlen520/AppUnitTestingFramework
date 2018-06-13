@@ -4,6 +4,8 @@ import os,requests
 from multiprocessing import Pool
 from time import  sleep
 import time
+from config.app_parameter import *
+
 
 class Initdevices(object):
     def __init__(self):
@@ -18,8 +20,6 @@ class Initdevices(object):
             if s_value.rfind('device') !=  -1 and (not s_value.startswith('List')) and s_value !='':
                 android['udid']=s_value[:s_value.find('device')].strip()
                 # android['platformName'] = 'Android'
-                # android['package'] =AppPackage
-                # android['activity'] = AppActivity
                 devices.append(android)
 
         return devices
@@ -129,7 +129,7 @@ class appiumServer(object):
 
 if __name__ == '__main__':
     a = Initdevices()
-    b = a.get_devices()
-    print(a.get_devices())
+    b = a.get_android_devices()
+    print(a.get_android_devices())
     # print([item[key] for item in b for key in item])
     # print("".join([item[key] for item in b for key in item]))

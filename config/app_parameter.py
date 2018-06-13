@@ -13,13 +13,6 @@ print(str(android_devices))
 # udid = '192.168.1.121:5555'
 # udid = '73047c33'
 deviceName = 'MI6'
-
-# udid = "9fa9dbf"
-# deviceName = "Amie"
-
-# udid = 'HECAKRO7IJW4YSYD'
-# deviceName = 'OPPO R15'
-
 udid = str(android_devices)
 host = '127.0.0.1'
 port = 4723
