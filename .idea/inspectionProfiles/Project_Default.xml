@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="sqlalchemy.exc" />
+          <option value="win32con" />
+          <option value="win32gui" />
+          <option value="dict.setCapability" />
+          <option value="win32clipboard" />
+          <option value="win32api" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

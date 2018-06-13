@@ -1,0 +1,42 @@
+first_pager:
+  first_pager_id: 'i,com.yanjianjun.huozhan:id/first_pager'
+frame:
+  frame_class: 'c,android.widget.FrameLayout'
+  frame_xpath: '//android.widget.FrameLayout'
+login:
+  username_id: 'i,com.yanjianjun.huozhan:id/log_tel'
+  password_id: 'i,com.yanjianjun.huozhan:id/log_pwd'
+  display_password_btn_id: 'com.yanjianjun.huozhan:id/log_eye'
+  login_btn_id: 'i,com.yanjianjun.huozhan:id/log_but'
+  register_account_id: 'i,com.yanjianjun.huozhan:id/my_reg'
+  forget_password_id: 'com.yanjianjun.huozhan:id/my_forget'
+  text_xy_id: 'i,com.yanjianjun.huozhan:id/log_xiey'
+forget_password:
+
+register:
+  zhuce_ye_id: ''
+  z_denglu_id: ''
+  zhuce_id: ''
+  zhu_user_id: ''
+  zhuce_pass_id: ''
+  yanzhengma_id: ''
+  huoquyanzhengma_id: ''
+  fail_id: ''
+  zhuce_btn: ''
+jurisdiction:
+  inquiry_text_id: 'i,com.lbe.security.miui:id/permission_message'
+  number_text_id: 'i,com.lbe.security.miui:id/current_page_text'
+  refuse_id: 'i,android:id/button2'
+  allow_id: 'i,android:id/button1'
+home:
+  home_id: 'i,com.yanjianjun.huozhan:id/home_tab_five'
+  home_xpath: "x,//android.widget.LinearLayout[@resource-id='com.yanjianjun.huozhan:id/home_tab_five']"
+  set_id: 'i,com.yanjianjun.huozhan:id/my_set_image_two'
+  home_fxpath: 'x,//android.widget.FrameLayout[1]/android.widget.LinearLayout[5]'
+  user_name_class: "c,android.widget.TextView"
+account_settings:
+  logout_btn_id: 'com.yanjianjun.huozhan:id/quit_log'
+classification:
+  classification_fxpath: 'x,//android.widget.FrameLayout[1]/android.widget.LinearLayout[2]'
+search:
+  search_bar_id: 'com.yanjianjun.huozhan:id/homeSearch'

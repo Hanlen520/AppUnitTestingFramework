@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "D:\PycharmProjects\HZ_AppTesting\basis\app_basis_driver.py", line 105, in assertion_log
+    unittest.TestCase().assertIn(first, second, message)
+  File "F:\AveySoftwareIntellation\Python\Anaconda3\lib\unittest\case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "F:\AveySoftwareIntellation\Python\Anaconda3\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '15020579521' not found in '1502057952' : 
+True断言失败:1
+断言生成时间：2018/05/24-09:43:32
+
